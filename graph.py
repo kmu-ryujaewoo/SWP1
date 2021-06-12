@@ -3,7 +3,11 @@ from template import html
 import matplotlib.pyplot as plt
 
 def application(environ, start_response):
+<<<<<<< HEAD
     if environ['PATH_INFO'] == './img/graph.png':
+=======
+    if environ['PATH_INFO'] == '/graph.png':
+>>>>>>> cc46ca5... ADD graph.py
         try:
             with open('graph.png', 'rb') as f:
                 response_body = f.read()
