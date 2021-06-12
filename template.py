@@ -7,7 +7,11 @@ html = b"""
               + <input type="number" name="c"><br><br>
             <input type="submit">
         </form>
+<<<<<<< HEAD
         <img src="/img/graph.png" alt="Result image here">
+=======
+        <img src="/graph.png" alt="Result image here">
+>>>>>>> d305190... ADD template.py
     </body>
 </html>
 """
