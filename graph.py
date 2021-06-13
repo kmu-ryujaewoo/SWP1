@@ -1,6 +1,8 @@
 from cgi import parse_qs
 from template import html
 import matplotlib.pyplot as plt
+import matplotlib as mpl
+mpl.use('AGG')
 
 def application(environ, start_response):
 <<<<<<< HEAD
@@ -37,3 +39,4 @@ def application(environ, start_response):
             ('Content-Length', str(len(response_body)))
         ])
         return [response_body]
+
